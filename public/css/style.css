@@ -1,0 +1,343 @@
+body{
+    position: relative;
+}
+/* < Header > */
+header .nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+/* Logo Header */
+header .nav-header .logo{
+    height: 27px;
+}
+/* End Logo Header */
+
+/* Nav Header */
+header .nav-header .navbar-header{
+
+}
+header .nav-header .navbar-header ul{
+    padding: 0;
+    margin: 0;
+}
+header .nav-header .navbar-header li{
+    display: inline-block;
+    padding: 0 20px;
+    line-height: 27px;
+}
+header .nav-header .navbar-header li a{
+    color: #425366;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+header .nav-header .navbar-header li:hover a{
+    color: #0ebfaa;
+}
+/* End Nav Header */
+
+
+/* Contact Header */
+header .nav-header .contact{
+
+}
+footer .contact ul,
+header .nav-header .contact ul{
+    padding: 0;
+    margin: 0;
+    line-height: 27px;
+}
+footer .contact ul li,
+header .nav-header .contact ul li{
+    display: inline-block;
+}
+footer .contact ul li a,
+header .nav-header .contact ul li a{
+    text-decoration: none;
+    color: #c1ddda;
+    font-size: 20px;
+    padding: 0 5px;
+}
+footer .contact ul li a:hover,
+header .nav-header .contact ul li a:hover{
+    color: #88e766;
+}
+/* End Contact Header */
+/* </ End Header > */
+
+
+/* < Main > */
+main{
+    padding: 50px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+/* Main Preamble */
+main .preamble{
+    padding: 100px 0;
+}
+main .preamble .left{
+    
+}
+main .reasons h2,
+main .workers h2,
+footer .subscribe h2,
+footer .contact h2,
+main .content .works h2,
+main .preamble .left h2{
+    color: #425366;
+    font-size: 65px;
+    font-weight: normal;
+}
+main .reasons p,
+main .workers p,
+footer .contact p,
+main .content .works .item p,
+main .preamble .left p{
+    color: #7b8694;
+    padding: 30px 0;
+}
+main .preamble .left button{
+    padding: 15px 45px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .4s ease;
+}
+main .preamble .left button:hover{
+    background: #fff;
+}
+main .preamble .left .start_now{
+    background: #0ebfaa;
+    border: 3px #0ebfaa solid;
+}
+main .preamble .left .start_now:hover{
+    color: #0ebfaa;
+}
+main .preamble .left .learn_more{
+    background: #75d752;
+    border: 3px #75d752 solid;
+}
+main .preamble .left .learn_more:hover{
+    color: #75d752;
+}
+main .preamble .right{
+
+}
+/* End Main Preamble */
+
+
+/* Content */
+main .content{
+    text-align: center;
+}
+main .content .works{
+
+}
+main .content .works .item img{
+    margin: 20px 0;
+}
+main .content .works h2{
+
+}
+main .content .works .item{
+    padding: 30px 0;
+}
+/* End Content */
+
+/* Rervices */
+main .rervices{
+
+}
+main .rervices .text-ser{
+
+}
+main .services .text-ser h2{
+    color: #425366;
+    font-size: 60px;
+    font-weight: normal;
+}
+main .services .text-ser p{
+    color: #7b8694;
+}
+main .services .features{
+    border-radius: 5px;
+    padding: 50px 30px;
+    background: #0ebfaa;
+    color: #fff;
+}
+main .services .features i{
+    
+}
+main .services i{
+    font-size: 50px;
+}
+main .services .seo{
+    border-radius: 5px;
+    padding: 50px 30px;
+    background: #75d752;
+    color: #fff;
+    margin-bottom: 30px;
+}
+main .services .support{
+    border-radius: 5px;
+    padding: 50px 30px;
+    background: #e7faf8;
+}
+main .services .support i{
+    
+}
+/* End Rervices */
+
+
+/* Reasons */
+main .reasons{
+    padding: 100px 0;
+}
+main .reasons h2{
+    padding: 30px 0;
+}
+main .reasons h4{
+    color: #00ccb3;
+    padding: 10px 0;
+}
+main .reasons .item-rea{
+    padding: 10px 0;
+}
+/* End Reasons */
+
+/* Workers */
+main .workers{
+    text-align: center;
+}
+main .workers .worker h4{
+    color: #425366;
+    padding: 40px 0 10px 0;
+}
+main .workers .worker span{
+    color: #7b8694;
+}
+/* End Workers */
+
+
+/* Reviews */
+main .reviews{
+    position: relative;
+    height: 1000px;
+}
+main .reviews .comment,
+main .reviews>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main .reviews .comment{
+    text-align: center;
+    font-size: 1.3em;
+}
+main .reviews .comment h2{
+    font-size: 4em;
+    color: #b8f1a3;
+}
+main .reviews .comment span{
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+main .reviews .comment img{
+    
+}
+/* End Reviews */
+/* </ End Main > */
+
+/* < Footer > */
+footer>span{
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+footer .subscribe .email{
+    position: relative;
+}
+footer .subscribe .email form {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer .subscribe form input{
+    padding: 20px;
+    width: 70%;
+    border: #ccf5f0 2px solid;
+}
+footer .subscribe form button{
+    padding: 20px 40px;
+    margin-left: 20px;
+    background-color: #75d752;
+    border: 3px #75d752 solid;
+    color: #fff;
+    transition: all .4s ease;
+    border-radius: 3px;
+}
+footer .subscribe form button:hover{
+    color: #75d752;
+    background: #fff;
+    border-radius: 3px;
+
+}
+footer .subscribe form span{
+    color: #7b8694;
+}
+
+footer .contact {
+    padding: 200px;
+    text-align: center;
+}
+footer .contact .phone a{
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 50px;
+}
+footer .contact .phone a:hover{
+    color: #75d752;
+}
+footer .contact .email{
+    display: block;  
+    margin-bottom: 30px;
+}
+footer .contact .email a{
+    color: #0EBFAA;
+    text-decoration: none;
+}
+footer .contact .email a:hover{
+    color: #88E766;
+}
+/* </ End Footer > */
+#fix{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0ebfaa;
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+#fix:hover{
+    background-color: #ccf5f0;
+    color: #425366;
+}
+#fix:hover a{
+    color: #425366;
+}
+#fix a{
+    color: #fff;
+    text-decoration: none;
+}
